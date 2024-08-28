@@ -1,0 +1,46 @@
+.footer {
+  background-color: var(--color-secondary);
+}
+
+.footer__wrapper {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 54px 78px 62px 78px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__logo {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.footer__text {
+  color: var(--color-light);
+  font-size: 28px;
+  font-weight: 700;
+  max-width: 220px;
+}
+
+.footer__list {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+
+.footer__list-item {
+  height: 34px;
+  display: flex;
+  align-items: center;
+}
+
+.footer__list-item::before {
+  content: url('../images/icons/arrow.svg');
+  margin-right: 24px;
+}
+
+.footer__link {
+  color: var(--color-light);
+  font-size: 20px;
+}

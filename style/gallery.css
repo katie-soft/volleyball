@@ -1,0 +1,11 @@
+.gallery {
+  width: 1140px;
+  height: 615px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.image {
+  position: absolute;
+  top: -34px;
+}

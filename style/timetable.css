@@ -1,0 +1,42 @@
+.timetable {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 68px 0 87px;
+}
+
+.section__title {
+  color: #124B54;
+  font-size: 47px;
+  font-weight: 700;
+  margin-bottom: 90px;
+}
+
+.timetable__list {
+  width: 100%;
+}
+
+.timetable__item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.timetable__item .date,
+.timetable__item .time {
+  font-size: 40px;
+}
+
+.timetable__item .plate {
+  color: var(--color-light);
+  background: linear-gradient(90deg, #75E4DE 0%, #0F736C 141.26%);
+  font-weight: 700;
+  font-size: 45px;
+  padding: 9px 44px;
+  border-radius: 30px 0;
+}
+
+.timetable__line {
+  width: 70%;
+  height: 2px;
+  background-color: #B8C1C0;
+  margin: 50px auto;
+}
