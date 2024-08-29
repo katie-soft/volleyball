@@ -7,14 +7,21 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
   <link rel="stylesheet" href="./style/style.css" />
 </head>
 <body>
   <header class="header">
     <div class="header__top">
-      <div class="logo">
+      <div class="logo_desktop">
         <img src="./images/logo/logo_name.svg" alt="LEGENDA">
         <img src="./images/logo/logo_image.svg">
+      </div>
+      <div class="logo_mobile">
+        <img src="./images/logo/logo_mobile.svg" alt="LEGENDA">
       </div>
       <h1 class="page-title">волейбольный клуб</h1>
       <div class="header__buttons">
@@ -24,9 +31,11 @@
           <a href="#" class="social-media-button social-media-button_wa"></a>
         </div>
         <a href="#" class="user-button">
-          <img src="./images/icons/user.svg">
-          Личный кабинет
+          <img class="user-button__image_desktop" src="./images/icons/user.svg">
+          <img class="user-button__image_mobile" src="./images/icons/user_white.svg">
+          <span>Личный кабинет</span>
         </a>
+        <button class="burger-button"></button>
       </div>
     </div>
     <nav class="header__nav">
@@ -54,8 +63,27 @@
     </nav>
   </header>
   <main class="content">
-    <section class="gallery">
-      <img class="image" src="./images/image 1.png" alt="">
+    <section class="gallery-wrapper">
+      <section class="gallery">
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img class="swiper-slide__image" src="./images/image 1.png" alt="Фото 1">
+            </div>
+            <div class="swiper-slide">
+              <img class="swiper-slide__image" src="./images/image 2.png" alt="Фото 2">
+            </div>
+            <div class="swiper-slide">
+              <img class="swiper-slide__image" src="./images/image 3.png" alt="Фото 3">
+            </div>
+            <div class="swiper-slide">
+              <img class="swiper-slide__image" src="./images/image 4.png" alt="Фото 4">
+            </div>
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </section>
     </section>
     <section class="timetable">
       <h2 class="section__title">Расписание турниров LEGENDA:</h2>
@@ -130,5 +158,7 @@
       </div>
     </div>
   </footer>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="./script.js"></script>
 </body>
 </html>

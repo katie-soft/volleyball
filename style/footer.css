@@ -14,6 +14,7 @@
   display: flex;
   flex-direction: column;
   gap: 28px;
+  max-width: 310px;
 }
 
 .footer__text {
@@ -38,9 +39,39 @@
 .footer__list-item::before {
   content: url('../images/icons/arrow.svg');
   margin-right: 24px;
+  transition: all 0.3s;
+}
+
+.footer__list-item:hover::before{
+  content: url('../images/icons/arrow_hover.svg');
 }
 
 .footer__link {
   color: var(--color-light);
   font-size: 20px;
+}
+
+.footer__link:hover {
+  font-weight: 700;
+}
+
+@media (max-width: 800px) {
+  .footer__wrapper {
+    flex-direction: column;
+    gap: 50px;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer__wrapper {
+    padding-left: 20px;
+  }
+
+  .footer__text {
+    font-size: 18px;
+  }
+
+  .footer__link {
+    font-size: 14px;
+  }
 }

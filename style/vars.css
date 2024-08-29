@@ -1,7 +1,10 @@
 :root {
   --color-primary: #17A49A;
   --color-secondary: #014B46;
+  --color-secondary-hover: #0F736C;;
   --color-accent: #EEFD93;
+  --color-accent-hover:#DFFF1C;
   --color-light: #FFFFFF;
   --color-dark: #000000;
+  --color-dark-hover: #073D3A;
 }
