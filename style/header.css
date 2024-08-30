@@ -37,6 +37,10 @@
   margin-top: 32px;
 }
 
+.burger__close-button {
+  display: none;
+}
+
 .header__buttons {
   display: flex;
   flex-direction: column;
@@ -155,6 +159,34 @@
   .social-media-buttons,
   .logo_desktop {
     display: none;
+  }
+
+  .burger-menu_opened {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 20;
+    background-color: var(--color-primary);
+    padding: 50px 20px;
+  }
+
+  .burger-menu_opened .nav__list {
+    flex-direction: column;
+  }
+
+  .burger__close-button {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-image: url('../images/icons/close.png');
+    background-size: contain;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 15px;
   }
 
   .logo_mobile {
