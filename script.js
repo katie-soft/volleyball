@@ -29,3 +29,12 @@ const swiper = new Swiper('.swiper', {
     prevEl: '.swiper-button-prev',
   },
 });
+
+/* Modal windows */
+
+const modal = document.querySelector('#user-modal');
+const userModalOpenButton = document.querySelector('#user-button');
+const userModalCloseButton = modal.querySelector('#user-modal-close-button');
+
+userModalOpenButton.addEventListener('click', () => modal.showModal());
+userModalCloseButton.addEventListener('click', () => modal.close());

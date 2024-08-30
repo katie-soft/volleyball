@@ -93,11 +93,13 @@
   font-size: 20px;
   font-weight: 700;
   padding: 6px 16px;
+  border: none;
   border-radius: 6px;
   display: flex;
   gap: 15px;
   align-items: center;
   transition: all 0.3s;
+  cursor: pointer;
 }
 
 .user-button:hover {

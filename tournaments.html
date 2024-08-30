@@ -30,11 +30,11 @@
           <a href="#" class="social-media-button social-media-button_tg"></a>
           <a href="#" class="social-media-button social-media-button_wa"></a>
         </div>
-        <a href="#" class="user-button">
+        <button class="user-button" id="user-button">
           <img class="user-button__image_desktop" src="./images/icons/user.svg">
           <img class="user-button__image_mobile" src="./images/icons/user_white.svg">
           <span>Личный кабинет</span>
-        </a>
+        </button>
         <button class="burger-button" id="burger-button"></button>
       </div>
     </div>
@@ -60,7 +60,7 @@
           <a href="#" class="nav__link">Контакты</a>
         </li>
       </ul>
-      <a href="#" class="button button_accent">Запись на тренировку</a>
+      <a href="#form-section-booking" class="button button_accent">Запись на тренировку</a>
     </nav>
   </header>
   <main class="content">
@@ -122,7 +122,7 @@
       <p class="announcement__subtitle">Чтобы заявиться на турнир необходимо зарегистрировать команду, оплатить взнос</p>
       <p class="announcement__text">Чтобы заявиться на турнир необходимо зарегистрировать команду, оплатить взнос</p>
     </section>
-    <section class="form-section">
+    <section class="form-section" id="form-section-booking">
       <h3 class="form__title">Играй вместе с LEGENDA</h3>
       <div class="form__wrapper">
         <span class="form__text">Оставь заявку на&nbsp;участие в&nbsp;турнире</span>
@@ -156,6 +156,26 @@
       </div>
     </div>
   </footer>
+  <dialog class="user-modal" id="user-modal">
+    <header class="modal__header">
+      <img src="./images/logo/logo_name_white.svg" alt="LEGENDA" class="modal__logo">
+      <button id="user-modal-close-button" class="modal__close-button"></button>
+    </header>
+    <section class="modal__content">
+      <div class="modal__tabs">
+        <span class="modal__tab modal__tab_active">по E-mail</span>
+        <span class="modal__tab">по телефону</span>
+      </div>
+      <form class="modal__form modal__form_login">
+        <input class="modal__input" type="text" placeholder="E-mail или логин">
+        <input class="modal__input" type="password" placeholder="Пароль">
+        <a class="modal__link" href="#">Забыли пароль?</a>
+        <button class="button_accent">Войти</button>
+        <button class="button_transparent">Зарегистрироваться</button>
+      </form>
+      <form class="modal__form_registration"></form>
+    </section>
+  </dialog>
   <div class="overlay" id="overlay"></div>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="./script.js"></script>
