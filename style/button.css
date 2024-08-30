@@ -13,3 +13,9 @@
 .button_accent:hover {
   background-color: var(--color-accent-hover);
 }
+
+@media (max-width: 650px) {
+  .button_accent {
+    font-size: 18px;
+  }
+}

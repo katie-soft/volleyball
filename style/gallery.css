@@ -2,7 +2,6 @@
   max-width: 1440px;
   height: 525px;
   margin: 0 auto;
-  /* background-color: #00000025; */
   margin-bottom: 68px;
 }
 
@@ -42,6 +41,7 @@
 .swiper-slide__image {
   border-radius: 50px 50px 0 0;
   object-fit: contain;
+  width: 100%;
 }
 
 .swiper-button-prev,
@@ -66,8 +66,31 @@
   background-image: url('../images/icons/next.svg');
 }
 
-@media (max-width: 1150px) {
+@media (max-width: 1165px) {
+  .gallery-wrapper {
+    margin-bottom: 50px;
+  }
+
+  .gallery {
+    width: auto;
+    height: auto;
+  }
   .swiper {
     position: static;
   }
+  
+  .gallery-wrapper,
+  .swiper-slide {
+    width: 100%;
+    height: auto;
+  }
+
+  .gallery-wrapper {
+    height: auto;
+  }
+
+  .swiper-slide::after {
+    background-size: contain;
+  }
 }
+

@@ -63,6 +63,11 @@
 }
 
 @media (max-width: 500px) {
+
+  .footer__logo {
+    max-width: 200px;
+  }
+
   .footer__wrapper {
     padding-left: 20px;
   }

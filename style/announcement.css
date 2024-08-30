@@ -22,3 +22,44 @@
 .announcement__text {
   font-size: 24px;
 }
+
+@media (max-width: 1165px) {
+
+  .announcement {
+    max-width: initial;
+    padding: 20px 30px 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .announcement__title {
+    font-size: 30px;
+  }
+  .announcement__subtitle {
+    font-size: 24px;
+  }
+  .announcement__text {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 550px) {
+
+  .announcement {
+    margin-bottom: 50px;
+  }
+
+  .announcement__title {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .announcement__subtitle {
+    font-size: 16px;
+    margin-bottom: 18px;
+  }
+
+  .announcement__text {
+    font-size: 14px;
+  }
+}
