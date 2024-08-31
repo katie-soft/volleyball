@@ -50,6 +50,7 @@
   background-color: #F3F3F3;
   padding: 5px;
   cursor: pointer;
+  margin-bottom: 50px;
 }
 
 .modal__tab {
@@ -67,7 +68,17 @@
 }
 
 .modal__form {
+  display: none;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.modal__form_active {
   display: flex;
+}
+
+.modal__form_registration {
   flex-direction: column;
   gap: 10px;
   width: 100%;
@@ -80,6 +91,7 @@
   border-bottom: 2px #C4C4C4 solid;
   padding-bottom: 10px;
   padding-top: 10px;
+  width: 100%;
 }
 
 .modal__input:not(:last-of-type) {
@@ -102,4 +114,28 @@
 
 .modal__link:hover {
   color: var(--color-dark)
+}
+
+.modal__form .button_accent,
+.modal__form_registration .button_accent {
+  align-self: center;
+  width: 347px;
+}
+
+.modal__registration {
+  display: none;
+  width: 100%;
+}
+
+.modal__form_registration {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 0;
+}
+
+.modal__form_registration .modal__input:last-of-type {
+  margin-bottom: 70px;
 }

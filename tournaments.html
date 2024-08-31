@@ -162,18 +162,37 @@
       <button id="user-modal-close-button" class="modal__close-button"></button>
     </header>
     <section class="modal__content">
-      <div class="modal__tabs">
-        <span class="modal__tab modal__tab_active">по E-mail</span>
-        <span class="modal__tab">по телефону</span>
+      <div class="modal__login">
+        <div class="modal__tabs">
+          <span class="modal__tab modal__tab_active" id="tab-button-email">по E-mail</span>
+          <span class="modal__tab" id="tab-button-phone">по телефону</span>
+        </div>
+        <form class="modal__form modal__form_active" id="tab-form-email">
+          <input class="modal__input" type="text" placeholder="E-mail или логин">
+          <input class="modal__input" type="password" placeholder="Пароль">
+          <a class="modal__link" href="#">Забыли пароль?</a>
+          <button type="submit" class="button_accent">Войти</button>
+          <button class="button_transparent button_registration">Зарегистрироваться</button>
+        </form>
+        <form class="modal__form" id="tab-form-phone">
+          <input class="modal__input" type="tel" placeholder="Номер телефона">
+          <input class="modal__input" type="password" placeholder="Пароль">
+          <a class="modal__link" href="#">Забыли пароль?</a>
+          <button class="button_accent">Войти</button>
+          <button class="button_transparent button_registration">Зарегистрироваться</button>
+        </form>
       </div>
-      <form class="modal__form modal__form_login">
-        <input class="modal__input" type="text" placeholder="E-mail или логин">
-        <input class="modal__input" type="password" placeholder="Пароль">
-        <a class="modal__link" href="#">Забыли пароль?</a>
-        <button class="button_accent">Войти</button>
-        <button class="button_transparent">Зарегистрироваться</button>
-      </form>
-      <form class="modal__form_registration"></form>
+      <div class="modal__registration">
+        <form class="modal__form_registration">
+          <input class="modal__input" type="text" placeholder="ФИО">
+          <input class="modal__input" type="text" placeholder="E-mail">
+          <input class="modal__input" type="password" placeholder="Пароль">
+          <input class="modal__input" type="tel" placeholder="Контактный телефон">
+          <button type="submit" class="button_accent">Зарегистрироваться</button>
+          <button class="button_transparent button_login">Войти</button>
+        </form>
+      </div>    
+      
     </section>
   </dialog>
   <div class="overlay" id="overlay"></div>
