@@ -52,7 +52,6 @@ modalButtonLogin.addEventListener('click', (event) => {
 });
 
 modalButtonsRegistration.forEach(btn => btn.addEventListener('click', (event) => {
-  console.log(event.target)
   event.stopPropagation();
   event.preventDefault();
   modalContentLogin.style.display = 'none';

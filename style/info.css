@@ -1,0 +1,43 @@
+.club-info {
+  max-width: 980px;
+  margin: 0 auto 67px;
+  position: relative;
+}
+
+.club-info .section__title {
+  margin-bottom: 36px;
+}
+
+.club-info__image {
+  width: 360px;
+  position: absolute;
+  top: 57px;
+  left: -320px;
+}
+
+.info-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 58px 50px;
+}
+
+.info-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+}
+
+.info-card__image {
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 1.16;
+  background: #EEF3F3;
+  border-radius: 43px;
+}
+
+.info-card__text {
+  font-size: 20px;
+  text-align: center;
+  max-width: 200px;
+}

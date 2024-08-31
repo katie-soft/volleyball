@@ -1,0 +1,80 @@
+.championships {
+  max-width: 1440px;
+  margin: 0 auto;
+  background: linear-gradient(229.3deg, #29DBCE 22.68%, #17A49A 51.74%, #149188 69.49%, #118078 84.93%, #0F736C 96.32%);
+  padding-bottom: 72px;
+}
+
+.championships .section__title {
+  display: inline-block;
+  background-color: var(--color-light);
+  padding: 30px 72px 20px 0;
+  margin-bottom: 50px;
+  border-bottom-right-radius: 50px;
+  position: relative;
+}
+
+.championships .section__title::before {
+  content: '';
+  width: 230px;
+  height: 111px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translateX(-100%) ;
+  background-color: var(--color-light);
+}
+
+.championships-wrapper {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.championships-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.championships-card {
+  width: 310px;
+  height: 458px;
+  margin-bottom: 25px;
+  position: relative;
+  border-radius: 43px;
+  overflow: hidden;
+}
+
+.championships-card__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.championships-card__info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 106px;
+  background-color: #FFFFFFCF;
+  padding: 20px 0;
+}
+
+.championships-card__title {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.championships-card__date {
+  color: #39383882;
+  font-size: 20px;
+  text-align: center;
+}
+
+.championships .button_accent {
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+  text-align: center;
+}

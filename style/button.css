@@ -29,8 +29,29 @@
   text-decoration: underline;
 }
 
+.button_light {
+  background-color: var(--color-light);
+  color: var(--color-dark);
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 12px 40px;
+  border-radius: 7px;
+  transition: all 0.3s;
+}
+
+.button_light:hover {
+  color: var(--color-light);
+  background-color: var(--color-secondary);
+}
+
 @media (max-width: 650px) {
   .button_accent {
     font-size: 18px;
+  }
+
+  .button_light {
+    font-size: 16px;
+    padding: 5px 10px;
   }
 }
