@@ -1,0 +1,36 @@
+.banner {
+  max-width: 1140px;
+  margin: 0 auto 40px auto;
+  position: relative;
+}
+
+.banner::after {
+  content: url('../images/logo/logo_transparent.png');
+  height: 70%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 70%;
+}
+
+.banner__image {
+  width: 100%;
+}
+
+.banner__content {
+  padding: 50px 78px 50px 83px;
+  position: absolute;
+  left: 0;
+  right: -3px;
+  bottom: 3px;
+  background-color: #000000A1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner__text {
+  text-transform: uppercase;
+  color: var(--color-light);
+  font-size: 38px;
+  font-weight: 700;
+}

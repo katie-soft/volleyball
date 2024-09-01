@@ -45,6 +45,22 @@
   background-color: var(--color-secondary);
 }
 
+.button_gradient {
+  background: linear-gradient(90deg, #70DED8 0%, #18B0A5 100%);
+  color: var(--color-light);
+  font-size: 20px;
+  font-weight: 700;
+  padding: 12px 50px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.button_gradient:hover {
+  background: linear-gradient(90deg, #18B0A5 0%, #70DED8 100%);
+}
+
 @media (max-width: 650px) {
   .button_accent {
     font-size: 18px;
