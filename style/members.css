@@ -1,0 +1,51 @@
+.members {
+  max-width: 1140px;
+  margin: 0 auto 50px auto;
+}
+
+.members .section__title {
+  margin-bottom: 47px;
+}
+
+.members__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 13px;
+  margin-left: 75px;
+  margin-bottom: 80px;
+}
+
+.members__card {
+  display: flex;
+  gap: 50px;
+}
+
+.members__card .card__image {
+  width: 164px;
+  height: 164px;
+  border-radius: 50%;
+  background-color: #A8C1C333;
+  display: block;
+}
+
+.members__card .card__content {
+  margin-top: 54px;
+}
+
+.members__card .card__title {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  max-width: 206px;
+}
+
+.members__card .card__list {
+  font-size: 20px;
+}
+
+.members .button_accent {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  max-width: 350px;
+}

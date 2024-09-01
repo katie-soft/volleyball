@@ -1,0 +1,48 @@
+.about {
+  background-image: url('../images/form-background.png');
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+  margin-bottom: 70px;
+}
+
+.about .section__title {
+  margin-bottom: 47px;
+}
+
+.about__content {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.about__list {
+  padding-left: 77px;
+  margin-bottom: 66px;
+}
+
+.about__list-item {
+  font-size: 30px;
+  margin-bottom: 50px;
+  display: flex;
+  font-weight: 700;
+}
+
+.about__list-item::before {
+  content: url('../images/icons/list-item.svg');
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  margin-right: 60px;
+}
+
+.about__nested-list {
+  list-style-type: "- ";
+  list-style-position: inside;
+  font-weight: 400;
+}
+
+.about__buttons {
+  display: flex;
+  gap: 40px;
+  margin-left: 77px;
+}
