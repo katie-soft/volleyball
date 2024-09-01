@@ -22,8 +22,20 @@ function closeBurgerMenu() {
 
 /* Photo gallery */
 
-const swiper = new Swiper('.swiper', {
+const swiperPhoto = new Swiper('.swiper', {
   loop: true,
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+
+/* Team cards gallery */
+
+const swiperCards = new Swiper('.cards-carousel', {
+  loop: true,
+  slidesPerView: 3,
+  spaceBetween: 60,
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
