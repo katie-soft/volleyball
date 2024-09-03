@@ -16,10 +16,10 @@
 
 .championships .section__title::before {
   content: '';
-  width: 230px;
+  width: 300px;
   height: 111px;
   position: absolute;
-  left: 0;
+  left: 1px;
   top: 0;
   transform: translateX(-100%) ;
   background-color: var(--color-light);
@@ -50,6 +50,10 @@
   object-fit: cover;
 }
 
+.championships-card__image_mobile {
+  display: none;
+}
+
 .championships-card__info {
   position: absolute;
   bottom: 0;
@@ -77,4 +81,68 @@
   margin: 0 auto;
   width: 70%;
   text-align: center;
+}
+
+@media (max-width: 1165px) {
+  .championships {
+    margin-bottom: 50px;
+  }
+
+  .championships .section__title::before {
+    height: 88.4px;
+  }
+}
+
+@media (max-width: 1000px) {
+
+  .championships .section__title{
+    padding-left: 20px;
+  }
+
+  .championships-cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .championships-card__wrapper {
+    width: 80%;
+  }
+
+  .championships-card {
+    width: 100%;
+    height: auto;
+  }
+
+  .championships-card__image_mobile {
+    display: block;
+  }
+
+  .championships-card__image_desktop {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+
+  .championships-card {
+    border-radius: 5%;
+  }
+
+  .championships-card__info {
+    height: 30%;
+    padding: 10px;
+  }
+
+  .championships-card__title {
+    font-size: 20px;
+  }
+
+  .championships-card__date {
+    display: none;
+  }
+
+  .championships .button_accent {
+    font-size: 14px;
+  }
 }
