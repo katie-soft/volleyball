@@ -95,7 +95,7 @@
 }
 
 .modal__input:not(:last-of-type) {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 .modal__input:focus {
@@ -138,4 +138,45 @@
 
 .modal__form_registration .modal__input:last-of-type {
   margin-bottom: 70px;
+}
+
+@media (max-width: 500px) {
+  .user-modal {
+    width: 90vw;
+  }
+
+  .modal__header {
+    height: 55px;
+    padding-top: 15px;
+  }
+
+  .modal__logo {
+    width: 50%;
+  }
+
+  .modal__tabs,
+  .modal__login {
+    width: 100%;
+  }
+
+  .modal__tabs,
+  .modal__input:not(:last-of-type),
+  .modal__form_registration .modal__input:last-of-type,
+  .modal__link {
+    margin-bottom: 20px;
+  }
+
+  .modal__form .button_accent,
+  .modal__form_registration .button_accent,
+  .modal__form .button_transparent,
+  .modal__form_registration .button_transparent {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .modal__input,
+  .modal__tab,
+  .modal__link {
+    font-size: 14px;
+  }
 }

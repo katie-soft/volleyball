@@ -289,7 +289,6 @@
   }
 
   .header__buttons {
-    flex-direction: column-reverse;
     margin-top: 10px;
     gap: 8px;
     justify-content: center;
