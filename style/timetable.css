@@ -50,6 +50,7 @@
   .section__title {
     font-size: 30px;
     margin-bottom: 30px;
+    padding-left: 20px;
   }
 
   .timetable__item .date,

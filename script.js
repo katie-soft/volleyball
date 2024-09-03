@@ -34,12 +34,26 @@ const swiperPhoto = new Swiper('.swiper', {
 
 const swiperCards = new Swiper('.cards-carousel', {
   loop: true,
-  slidesPerView: 3,
-  spaceBetween: 60,
+  slidesPerView: 1,
+  spaceBetween: 20,
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 20
+    },
+    700: {
+      slidesPerView: 2,
+      spaceBetween: 40
+    },
+    1050: {
+      slidesPerView: 3,
+      spaceBetween: 60
+    }
+  }
 });
 
 /* Modal windows */
