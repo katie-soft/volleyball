@@ -46,3 +46,46 @@
   gap: 40px;
   margin-left: 77px;
 }
+
+@media (max-width: 1000px) {
+
+  .about__list {
+    padding-left: 50px;
+  }
+
+  .about__list-item {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .about__buttons {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 500px) {
+  .about__list {
+    padding-left: 15px;
+  }
+  
+  .about__list-item::before {
+    margin-right: 15px;
+  }
+
+  .about__list-item {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  .about__buttons {
+    gap: 20px;
+    margin-left: 0;
+    align-items: center;
+  }
+
+  .about__buttons a {
+    font-size: 15px;
+  }
+}

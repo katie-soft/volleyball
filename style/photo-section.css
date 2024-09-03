@@ -9,4 +9,15 @@
 
 .team-photo_image {
   border-radius: 15px;
+  max-width: 100%;
+}
+
+@media (max-width: 700px) {
+  .team-photo {
+    margin-top: 20px;
+  }
+
+  .team-photo .section__title {
+    margin-bottom: 20px;
+  }
 }

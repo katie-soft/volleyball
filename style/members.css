@@ -49,3 +49,36 @@
   display: block;
   max-width: 350px;
 }
+
+@media (max-width: 1000px) {
+
+  .members__card {
+    gap: 25px;
+  }
+
+  .members__card .card__content {
+    margin-top: 15px;
+  }
+
+  .members__card .card__image {
+    width: 100px;
+    height: 100px;
+  }
+
+  .members__card .card__title,
+  .members__card .card__list {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 700px) {
+  .members__grid {
+    grid-template-columns: 1fr;
+    margin-left: 0;
+    justify-items: center;
+  }
+
+  .members .button_accent {
+    font-size: 15px;
+  }
+}
