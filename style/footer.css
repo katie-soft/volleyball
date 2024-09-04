@@ -3,8 +3,6 @@
 }
 
 .footer__wrapper {
-  max-width: 1140px;
-  margin: 0 auto;
   padding: 54px 78px 62px 78px;
   display: flex;
   justify-content: space-between;
@@ -39,7 +37,9 @@
 .footer__list-item::before {
   content: url('../images/icons/arrow.svg');
   margin-right: 24px;
-  transition: all 0.3s;
+  transition: var(--transition);
+  width: 34px;
+  height: 34px;
 }
 
 .footer__list-item:hover::before{
@@ -49,6 +49,7 @@
 .footer__link {
   color: var(--color-light);
   font-size: 20px;
+  width: 260px;
 }
 
 .footer__link:hover {

@@ -7,4 +7,5 @@
   --color-light: #FFFFFF;
   --color-dark: #000000;
   --color-dark-hover: #073D3A;
+  --transition: all 0.3s;
 }

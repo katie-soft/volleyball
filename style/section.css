@@ -1,0 +1,27 @@
+.section_centered {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section__title {
+  color: #124B54;
+  font-size: 47px;
+  font-weight: 700;
+  margin-bottom: 90px;
+}
+
+@media (max-width: 1165px) {
+  .section__title {
+    font-size: 30px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 550px) {
+  .section__title {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+}

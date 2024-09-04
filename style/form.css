@@ -1,6 +1,4 @@
 .form-section {
-  max-width: 1140px;
-  margin: 0 auto;
   background: url('../images/form-background.png'), linear-gradient(258.55deg, #29DBCE 3.1%, #17A49A 34.97%, #149188 54.44%, #118078 71.39%, #0F736C 83.88%);
   border-radius: 50px 50px 0 0;
   padding: 56px 76px 29px;

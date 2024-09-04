@@ -1,14 +1,5 @@
 .timetable {
-  max-width: 1140px;
-  margin: 0 auto;
   padding: 68px 0 87px;
-}
-
-.section__title {
-  color: #124B54;
-  font-size: 47px;
-  font-weight: 700;
-  margin-bottom: 90px;
 }
 
 .timetable__list {
@@ -47,12 +38,6 @@
     padding: 0 25px 50px 25px;
   }
 
-  .section__title {
-    font-size: 30px;
-    margin-bottom: 30px;
-    padding-left: 20px;
-  }
-
   .timetable__item .date,
   .timetable__item .time,  
   .timetable__item .plate {
@@ -69,11 +54,6 @@
   .timetable {
     padding-left: 15px;
     padding-right: 15px;
-  }
-
-  .section__title {
-    font-size: 15px;
-    margin-bottom: 20px;
   }
 
   .timetable__item .date,

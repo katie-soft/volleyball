@@ -5,9 +5,7 @@
 }
 
 .gallery {
-  width: 1140px;
   height: 615px;
-  margin: 0 auto;
   position: relative;
 }
 
@@ -75,6 +73,13 @@
   content: '';
 }
 
+.swiper-button-prev,
+.swiper-button-prev_primary,
+.swiper-button-next,
+.swiper-button-next_primary {
+  transition: var(--transition);
+}
+
 .swiper-button-prev {
   background-image: url('../images/icons/prev.svg');
 }
@@ -89,6 +94,16 @@
 
 .swiper-button-next_primary {
   background-image: url('../images/icons/next_prim.svg');
+}
+
+.swiper-button-prev:hover,
+.swiper-button-prev_primary:hover {
+  background-image: url('../images/icons/prev_hover.svg');
+}
+
+.swiper-button-next:hover,
+.swiper-button-next_primary:hover {
+  background-image: url('../images/icons/next_hover.svg');
 }
 
 @media (max-width: 1165px) {

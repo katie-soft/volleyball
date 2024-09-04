@@ -107,7 +107,7 @@
   text-decoration: underline;
   color: #6B6B6B;
   font-size: 20px;
-  transition: all 0.3s;
+  transition: var(--transition);
   align-self: flex-start;
   margin-bottom: 45px;
 }

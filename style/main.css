@@ -21,7 +21,7 @@ ul {
 
 a {
   text-decoration: none;
-  transition: all 0.3s;
+  transition: var(--transition);
 }
 
 .overlay {
