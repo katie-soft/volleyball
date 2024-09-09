@@ -1,0 +1,53 @@
+.trainers {
+  position: relative;
+}
+
+.trainers::before {
+  position: absolute;
+  content: '';
+  background-image: url('../images/background.png');
+  z-index: -1;
+  right: 0;
+  transform: translateY(-50%);
+  width: 735px;
+  height: 677px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.trainers-list {
+  margin-left: 97px;
+}
+
+.trainer {
+  display: flex;
+  gap: 96px;
+  margin-bottom: 68px;
+}
+
+.trainer__content {
+  padding-top: 33px;
+}
+
+.trainer__image {
+  width: 270px;
+  height: 270px;
+  border-radius: 50%;
+  background-color: #A8C1C333;
+  object-fit: contain;
+}
+
+.trainer__title {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.trainer__subtitle {
+  font-size: 25px;
+  margin-bottom: 24px;
+}
+
+.trainer__text {
+  font-size: 25px;
+}
