@@ -1,0 +1,38 @@
+.collage {
+  margin: 30px auto;
+  position: relative;
+  height: 734px;
+  background-image: url('../images/background_flowers.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.billet {
+  width: 473px;
+  padding: 30px 40px 40px 74px;
+  background-color: #49D0C7;
+  border-radius: 40px;
+  border: 20px solid var(--color-light);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  color: var(--color-light);
+}
+
+.billet__title {
+  font-size: 46px;
+  line-height: 1;
+  font-weight: 700;
+  margin-bottom: 17px;
+}
+
+.billet__text {
+  font-size: 30px;
+  margin-bottom: 34px;
+  line-height: 1;
+}
+
+.billet .button {
+  padding: 12px 50px;
+  display: inline-block;
+}
