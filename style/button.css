@@ -61,6 +61,18 @@
   background: linear-gradient(90deg, #18B0A5 0%, #70DED8 100%);
 }
 
+.button_dark-gradient {
+  background: linear-gradient(251.49deg, #75E4DE -5.76%, #0F736C 102.75%);
+  font-size: 47px;
+  font-weight: 700;
+  border-radius: 20px;
+  padding: 20px 60px;
+  width: 30%;
+  border: none;
+  color: var(--color-light);
+  cursor: pointer;
+}
+
 .button_primary {
   background-color: var(--color-primary);
   color: var(--color-light);

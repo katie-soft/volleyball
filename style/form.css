@@ -6,6 +6,12 @@
   background-position: bottom left;
 }
 
+.form-section_women {
+  background: url('../images/form-background-flowers.png'), linear-gradient(258.55deg, #29DBCE 3.1%, #17A49A 34.97%, #149188 54.44%, #118078 71.39%, #0F736C 83.88%);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+
 .form__title {
   color: var(--color-light);
   font-weight: 700;

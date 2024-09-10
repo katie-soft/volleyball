@@ -27,6 +27,14 @@
   border-radius: 30px 0 0 0;
 }
 
+.tournament-table table thead td:nth-of-type(2) {
+  width: 170px;
+}
+
+.tournament-table table thead td:last-of-type {
+  width: 80px;
+}
+
 .tournament-table table tr:nth-of-type(odd) {
   background-color: #C0EBEC;
 }
@@ -39,8 +47,13 @@
   background-color: #1C8A8F;
   color: var(--color-light);
   font-weight: 700;
+  font-size: 30px;
 }
 
 .tournament-table table tr td:nth-child(2) {
   font-weight: 700;
+}
+
+.tournament-table table td.disabled {
+  background-color: #3EC1C4;;
 }
