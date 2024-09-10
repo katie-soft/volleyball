@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LEGENDA</title>
+    <link rel="icon" href="./images/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__top">
+        <a href="/index.html" class="logo_desktop">
+          <img src="./images/logo/logo_name.svg" alt="LEGENDA">
+          <img src="./images/logo/logo_image.svg">
+        </a>
+        <div class="logo_mobile">
+          <img src="./images/logo/logo_mobile.svg" alt="LEGENDA">
+        </div>
+        <h1 class="page-title">волейбольный клуб</h1>
+        <div class="header__buttons">
+          <div class="social-media-buttons">
+            <a href="#" class="social-media-button social-media-button_vk"></a>
+            <a href="#" class="social-media-button social-media-button_tg"></a>
+            <a href="#" class="social-media-button social-media-button_wa"></a>
+          </div>
+          <button class="user-button" id="user-button">
+            <img class="user-button__image_desktop" src="./images/icons/user.svg">
+            <img class="user-button__image_mobile" src="./images/icons/user_white.svg">
+            <span>Личный кабинет</span>
+          </button>
+          <button class="burger-button" id="burger-button"></button>
+        </div>
+      </div>
+      <nav class="header__nav section_centered" id="header-nav">
+        <button class="burger__close-button" id="close-burger"></button>
+        <ul class="nav__list">
+          <li class="nav__list-item">
+            <a href="/teams1.html" class="nav__link">Команды</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="/tournaments.html" class="nav__link">Турниры</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="#" class="nav__link">Тренеры и руководство</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="#" class="nav__link">Woman 35+</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="#" class="nav__link">Расписание клуба</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="#" class="nav__link">Контакты</a>
+          </li>
+        </ul>
+        <a href="#form-section-booking" class="button button_accent">Запись на тренировку</a>
+      </nav>
+    </header>
+    <main class="content">
+      <section class="user-info section_centered">
+        <h2 class="section__title">Обо мне:</h2>
+        <div class="player-card">
+          <button class="button button_edit"></button>
+          <img class="player-card__image" src="" alt="Кукина Ксения">
+          <div>
+            <h4 class="player-card__title">Кукина Ксения</h4>
+            <p class="player-card__subtitle">капитан команды “Легенда”</p>
+            <div class="player-card__content">
+              <p class="player-card__text">Личная информация:</p>
+              <p class="player-card__text">Амплуа: связующий</p>
+              <p class="player-card__text">Рост команды: 171,8 см</p>
+              <p class="player-card__text">Возраст: 26 лет</p>
+              <p class="player-card__text">Спортивный разряд: 3 взрослый</p>
+            </div>
+            <div class="player-card__contacts">
+              <p class="player-card__text">Тел: 8-999-888-77-66</p>
+              <p class="player-card__text">E-mail: maksimchug@mail.ru</p>
+            </div>
+          </div>          
+        </div>
+      </section>
+      <section class="team-members section_centered">
+        <h2 class="section__title">Состав команды:</h2>
+        <button class="button button_tertiary">
+          Заявки в команду
+          <span class="button__alert">+2</span>
+        </button>
+        <div class="members__grid">
+          <div class="members__card">
+            <img class="card__image" src="./images/portrait 1.png" alt="Иванова Ксения Игоревна">
+            <div class="card__content">
+              <p class="card__title">Иванова Ксения Игоревна</p>
+              <ul class="card__list">
+                <li class="card__list-item">амплуа: доигровщик</li>
+                <li class="card__list-item">рост: 175 см</li>
+                <li class="card__list-item">возраст: 25 лет</li>
+                <li class="card__list-item">разряд: 1 взрослый</li>
+              </ul>
+            </div>
+          </div>
+          <div class="members__card">
+            <img class="card__image" src="./images/portrait 2.png" alt="Иванова Ксения Игоревна">
+            <div class="card__content">
+              <p class="card__title">Иванова Ксения Игоревна</p>
+              <ul class="card__list">
+                <li class="card__list-item">амплуа: доигровщик</li>
+                <li class="card__list-item">рост: 175 см</li>
+                <li class="card__list-item">возраст: 25 лет</li>
+                <li class="card__list-item">разряд: 1 взрослый</li>
+              </ul>
+            </div>
+          </div>
+          <div class="members__card">
+            <img class="card__image" src="./images/portrait 3.png" alt="Иванова Ксения Игоревна">
+            <div class="card__content">
+              <p class="card__title">Иванова Ксения Игоревна</p>
+              <ul class="card__list">
+                <li class="card__list-item">амплуа: доигровщик</li>
+                <li class="card__list-item">рост: 175 см</li>
+                <li class="card__list-item">возраст: 25 лет</li>
+                <li class="card__list-item">разряд: 1 взрослый</li>
+              </ul>
+            </div>
+          </div>
+          <div class="members__card">
+            <img class="card__image" src="./images/portrait 1.png" alt="Иванова Ксения Игоревна">
+            <div class="card__content">
+              <p class="card__title">Иванова Ксения Игоревна</p>
+              <ul class="card__list">
+                <li class="card__list-item">амплуа: доигровщик</li>
+                <li class="card__list-item">рост: 175 см</li>
+                <li class="card__list-item">возраст: 25 лет</li>
+                <li class="card__list-item">разряд: 1 взрослый</li>
+              </ul>
+            </div>
+          </div>
+          <div class="members__card">
+            <img class="card__image" src="./images/portrait 2.png" alt="Иванова Ксения Игоревна">
+            <div class="card__content"> 
+              <p class="card__title">Иванова Ксения Игоревна</p>
+              <ul class="card__list">
+                <li class="card__list-item">амплуа: доигровщик</li>
+                <li class="card__list-item">рост: 175 см</li>
+                <li class="card__list-item">возраст: 25 лет</li>
+                <li class="card__list-item">разряд: 1 взрослый</li>
+              </ul>
+            </div>
+          </div>
+          <div class="members__card">
+            <img class="card__image" src="./images/portrait 3.png" alt="Иванова Ксения Игоревна">
+            <div class="card__content">
+              <p class="card__title">Иванова Ксения Игоревна</p>
+              <ul class="card__list">
+                <li class="card__list-item">амплуа: доигровщик</li>
+                <li class="card__list-item">рост: 175 см</li>
+                <li class="card__list-item">возраст: 25 лет</li>
+                <li class="card__list-item">разряд: 1 взрослый</li>
+              </ul>
+            </div>
+          </div>
+          <div class="members__card">
+            <img class="card__image" src="" alt="Иванова Ксения Игоревна">
+            <div class="card__content">
+              <p class="card__title">Иванова Ксения Игоревна</p>
+              <ul class="card__list">
+                <li class="card__list-item">амплуа: доигровщик</li>
+                <li class="card__list-item">рост: 175 см</li>
+                <li class="card__list-item">возраст: 25 лет</li>
+                <li class="card__list-item">разряд: 1 взрослый</li>
+              </ul>
+            </div>
+          </div>
+          <div class="members__card">
+            <img class="card__image" src="" alt="Иванова Ксения Игоревна">
+            <div class="card__content">
+              <p class="card__title">Иванова Ксения Игоревна</p>
+              <ul class="card__list">
+                <li class="card__list-item">амплуа: доигровщик</li>
+                <li class="card__list-item">рост: 175 см</li>
+                <li class="card__list-item">возраст: 25 лет</li>
+                <li class="card__list-item">разряд: 1 взрослый</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <button class="button button_primary">Изменить состав</button>
+      </section>
+      <section class="planned-games section_centered">
+        <h2 class="section__title">Запись на игры:</h2>
+        <table class="planned-games__table">
+          <thead>
+            <tr>
+              <td>Дата</td>
+              <td>Турнир</td>
+              <td>Время</td>
+              <td>Место</td>
+              <td>Статус оплаты</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>15 июня</td>
+              <td>
+                <span>Woman open</span>
+              </td>
+              <td>15:00</td>
+              <td>Седова, 9</td>
+              <td>Оплачено</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="subscription section_centered">
+        <h2 class="section__title">Игры по абонементу:</h2>
+        <div class="subscription-info">
+          <h4 class="section__subtitle">Действующий абонемент:</h4>
+          <div class="subscription-info__content">
+            <span class="subscription-info__date">Июнь 2024</span>
+            <p class="subscription-info__text">Дата начала: 03.06.2024</p>
+            <p class="subscription-info__text">Дата окончания: 03.07.2024</p>
+          </div>
+        </div>
+        <div class="mini-calendar">
+          <h4 class="section__subtitle">Виджет посещений:</h4>
+        </div>
+        <div class="subscription-balance">
+          <h4 class="section__subtitle">Общий остаток:</h4>
+          <div class="subscription-balance__content">
+            <span>1050,00р./2 тренировки</span>
+            <a href="#" class="button button_accent">Пополнить баланс</a>
+          </div>
+        </div>
+      </section>
+      <section class="form-section section_centered" id="form-section-booking">
+        <h3 class="form__title">Играй вместе с LEGENDA</h3>
+        <div class="form__wrapper">
+          <span class="form__text">Оставь заявку на&nbsp;участие в&nbsp;турнире</span>
+          <form class="form">
+            <input type="text" class="input" id="team" name="team" placeholder="Имя или название команды">
+            <input type="text" class="input" id="game" name="game" placeholder="Куда хотите записаться">
+            <input type="tel" class="input" id="tel" name="tel" placeholder="Контактный номер">
+            <button type="submit" class="button_accent">Подать заявку</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__wrapper section_centered">
+        <div class="footer__logo">
+          <img src="./images/logo/logo_name_white.svg" alt="LEGENDA">
+          <span class="footer__text">воллейбольный клуб</span>
+        </div>
+        <div class="footer__links">
+          <ul class="footer__list">
+            <li class="footer__list-item">
+              <a href="#" class="footer__link">LEGENDA YouTube - канал</a>
+            </li>
+            <li class="footer__list-item">
+              <a href="#" class="footer__link">LEGENDA INSTAGRAM</a>
+            </li>
+            <li class="footer__list-item">
+              <a href="#" class="footer__link">LEGENDA TELEGRAM - канал</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <dialog class="user-modal" id="user-modal">
+      <header class="modal__header">
+        <img src="./images/logo/logo_name_white.svg" alt="LEGENDA" class="modal__logo">
+        <button id="user-modal-close-button" class="modal__close-button"></button>
+      </header>
+      <section class="modal__content">
+        <div class="modal__login">
+          <div class="modal__tabs">
+            <span class="modal__tab modal__tab_active" id="tab-button-email">по E-mail</span>
+            <span class="modal__tab" id="tab-button-phone">по телефону</span>
+          </div>
+          <form class="modal__form modal__form_active" id="tab-form-email">
+            <input class="modal__input" type="text" placeholder="E-mail или логин">
+            <input class="modal__input" type="password" placeholder="Пароль">
+            <a class="modal__link" href="#">Забыли пароль?</a>
+            <button type="submit" class="button_accent">Войти</button>
+            <button class="button_transparent button_registration">Зарегистрироваться</button>
+          </form>
+          <form class="modal__form" id="tab-form-phone">
+            <input class="modal__input" type="tel" placeholder="Номер телефона">
+            <input class="modal__input" type="password" placeholder="Пароль">
+            <a class="modal__link" href="#">Забыли пароль?</a>
+            <button class="button_accent">Войти</button>
+            <button class="button_transparent button_registration">Зарегистрироваться</button>
+          </form>
+        </div>
+        <div class="modal__registration">
+          <form class="modal__form_registration">
+            <input class="modal__input" type="text" placeholder="ФИО">
+            <input class="modal__input" type="text" placeholder="E-mail">
+            <input class="modal__input" type="password" placeholder="Пароль">
+            <input class="modal__input" type="tel" placeholder="Контактный телефон">
+            <button type="submit" class="button_accent">Зарегистрироваться</button>
+            <button class="button_transparent button_login">Войти</button>
+          </form>
+        </div>    
+        
+      </section>
+    </dialog>
+    <div class="overlay" id="overlay"></div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
+

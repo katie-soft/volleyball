@@ -1,3 +1,11 @@
+.button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  transition: var(--transition);
+  text-align: center;
+}
+
 .button_accent {
   background-color: var(--color-accent);
   color: var(--color-dark);
@@ -84,6 +92,38 @@
 
 .button_primary:hover {
   background-color: var(--color-secondary);
+}
+
+.button_edit {
+  border: none;
+  background-color: transparent;
+  width: 40px;
+  height: 40px;
+  background-image: url('../images/icons/edit.svg');
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.button_tertiary {
+  color: var(--color-light);
+  background-color: var(--color-tertiary);
+  padding: 15px 40px;
+  border-radius: 13px;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.button_tertiary:hover {
+  background-color: #0DB2A9;
+}
+
+.button__alert {
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  border-radius: 9px;
+  background-color: #F72B2B;
+  padding: 4px 8px;
 }
 
 @media (max-width: 650px) {

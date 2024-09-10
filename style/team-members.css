@@ -1,0 +1,17 @@
+.team-members {
+  margin-bottom: 72px;
+  position: relative;
+}
+
+.team-members .button_tertiary {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.team-members .button_primary {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px 65px;
+}

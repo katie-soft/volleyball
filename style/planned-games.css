@@ -1,0 +1,37 @@
+.planned-games {
+  margin-bottom: 175px;
+}
+
+.planned-games__table {
+  margin-left: 75px;
+  width: 100%;
+}
+
+.planned-games__table thead td {
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #C4C4C4;
+}
+
+.planned-games__table tbody td {
+  padding-top: 27px;
+  padding-bottom: 27px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.planned-games__table tbody tr td:last-child {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.planned-games__table tbody td span {
+  background: linear-gradient(90deg, #75E4DE 0%, #0F736C 141.26%);
+  color: var(--color-light);
+  border-radius: 20px 0;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 8px 25px;
+}
