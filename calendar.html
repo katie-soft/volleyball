@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LEGENDA</title>
+    <link rel="icon" href="./images/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__top">
+        <a href="/index.html" class="logo_desktop">
+          <img src="./images/logo/logo_name.svg" alt="LEGENDA">
+          <img src="./images/logo/logo_image.svg">
+        </a>
+        <div class="logo_mobile">
+          <img src="./images/logo/logo_mobile.svg" alt="LEGENDA">
+        </div>
+        <h1 class="page-title">волейбольный клуб</h1>
+        <div class="header__buttons">
+          <div class="social-media-buttons">
+            <a href="#" class="social-media-button social-media-button_vk"></a>
+            <a href="#" class="social-media-button social-media-button_tg"></a>
+            <a href="#" class="social-media-button social-media-button_wa"></a>
+          </div>
+          <button class="user-button" id="user-button">
+            <img class="user-button__image_desktop" src="./images/icons/user.svg">
+            <img class="user-button__image_mobile" src="./images/icons/user_white.svg">
+            <span>Личный кабинет</span>
+          </button>
+          <button class="burger-button" id="burger-button"></button>
+        </div>
+      </div>
+      <nav class="header__nav section_centered" id="header-nav">
+        <button class="burger__close-button" id="close-burger"></button>
+        <ul class="nav__list">
+          <li class="nav__list-item">
+            <a href="/teams1.html" class="nav__link">Команды</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="/tournaments.html" class="nav__link">Турниры</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="#" class="nav__link">Тренеры и руководство</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="#" class="nav__link">Woman 35+</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="#" class="nav__link">Расписание клуба</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="#" class="nav__link">Контакты</a>
+          </li>
+        </ul>
+        <a href="#form-section-booking" class="button button_accent">Запись на тренировку</a>
+      </nav>
+    </header>
+    <main class="content">
+      <section class="title-banner section_centered">
+        <h2 class="title">Расписание клуба 2024</h2>
+      </section>
+      <section class="section_centered calendar">Июнь</section>
+      <section class="section_centered news">
+        <h2 class="section__title">Новости:</h2>
+        <div class="newsfeed">
+          <div class="newsfeed-item">
+            <img class="newsfeed-item__image" src="" alt="Турнир в честь праздника">
+            <div>
+              <h5 class="newsfeed-item__title">Турнир в честь праздника</h5>
+              <p class="newsfeed-item__text">Безусловно, глубокий уровень погружения не даёт нам иного выбора, кроме определения поставленных обществом задач. А также сделанные на базе интернет-аналитики выводы лишь добавляют фракционных разногласий и обнародованы.</p>
+              <p class="newsfeed-item__text">Задача организации, в особенности же существующая теория говорит о возможностях новых принципов формирования материально-технической и кадровой базы. </p>
+            </div>
+          </div>
+          <div class="newsfeed-item">
+            <img class="newsfeed-item__image" src="" alt="Турнир в честь праздника">
+            <div>
+              <h5 class="newsfeed-item__title">Турнир в честь праздника</h5>
+              <p class="newsfeed-item__text">Безусловно, глубокий уровень погружения не даёт нам иного выбора, кроме определения поставленных обществом задач. А также сделанные на базе интернет-аналитики выводы лишь добавляют фракционных разногласий и обнародованы.</p>
+              <p class="newsfeed-item__text">Задача организации, в особенности же существующая теория говорит о возможностях новых принципов формирования материально-технической и кадровой базы. </p>
+            </div>
+          </div>
+          <div class="newsfeed-item">
+            <img class="newsfeed-item__image" src="" alt="Турнир в честь праздника">
+            <div>
+              <h5 class="newsfeed-item__title">Турнир в честь праздника</h5>
+              <p class="newsfeed-item__text">Безусловно, глубокий уровень погружения не даёт нам иного выбора, кроме определения поставленных обществом задач. А также сделанные на базе интернет-аналитики выводы лишь добавляют фракционных разногласий и обнародованы.</p>
+              <p class="newsfeed-item__text">Задача организации, в особенности же существующая теория говорит о возможностях новых принципов формирования материально-технической и кадровой базы. </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="form-section section_centered" id="form-section-booking">
+        <h3 class="form__title">Играй вместе с LEGENDA</h3>
+        <div class="form__wrapper">
+          <span class="form__text">Оставь заявку на&nbsp;участие в&nbsp;турнире</span>
+          <form class="form">
+            <input type="text" class="input" id="team" name="team" placeholder="Имя или название команды">
+            <input type="text" class="input" id="game" name="game" placeholder="Куда хотите записаться">
+            <input type="tel" class="input" id="tel" name="tel" placeholder="Контактный номер">
+            <button type="submit" class="button_accent">Подать заявку</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__wrapper section_centered">
+        <div class="footer__logo">
+          <img src="./images/logo/logo_name_white.svg" alt="LEGENDA">
+          <span class="footer__text">воллейбольный клуб</span>
+        </div>
+        <div class="footer__links">
+          <ul class="footer__list">
+            <li class="footer__list-item">
+              <a href="#" class="footer__link">LEGENDA YouTube - канал</a>
+            </li>
+            <li class="footer__list-item">
+              <a href="#" class="footer__link">LEGENDA INSTAGRAM</a>
+            </li>
+            <li class="footer__list-item">
+              <a href="#" class="footer__link">LEGENDA TELEGRAM - канал</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <dialog class="user-modal" id="user-modal">
+      <header class="modal__header">
+        <img src="./images/logo/logo_name_white.svg" alt="LEGENDA" class="modal__logo">
+        <button id="user-modal-close-button" class="modal__close-button"></button>
+      </header>
+      <section class="modal__content">
+        <div class="modal__login">
+          <div class="modal__tabs">
+            <span class="modal__tab modal__tab_active" id="tab-button-email">по E-mail</span>
+            <span class="modal__tab" id="tab-button-phone">по телефону</span>
+          </div>
+          <form class="modal__form modal__form_active" id="tab-form-email">
+            <input class="modal__input" type="text" placeholder="E-mail или логин">
+            <input class="modal__input" type="password" placeholder="Пароль">
+            <a class="modal__link" href="#">Забыли пароль?</a>
+            <button type="submit" class="button_accent">Войти</button>
+            <button class="button_transparent button_registration">Зарегистрироваться</button>
+          </form>
+          <form class="modal__form" id="tab-form-phone">
+            <input class="modal__input" type="tel" placeholder="Номер телефона">
+            <input class="modal__input" type="password" placeholder="Пароль">
+            <a class="modal__link" href="#">Забыли пароль?</a>
+            <button class="button_accent">Войти</button>
+            <button class="button_transparent button_registration">Зарегистрироваться</button>
+          </form>
+        </div>
+        <div class="modal__registration">
+          <form class="modal__form_registration">
+            <input class="modal__input" type="text" placeholder="ФИО">
+            <input class="modal__input" type="text" placeholder="E-mail">
+            <input class="modal__input" type="password" placeholder="Пароль">
+            <input class="modal__input" type="tel" placeholder="Контактный телефон">
+            <button type="submit" class="button_accent">Зарегистрироваться</button>
+            <button class="button_transparent button_login">Войти</button>
+          </form>
+        </div>    
+      </section>
+    </dialog>
+    <div class="overlay" id="overlay"></div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+body:has(.title-banner) .header {
+  margin-bottom: 30px;
+}
+
+.title-banner {
+  background-image: url('../images/background.png');
+  background-repeat: no-repeat;
+  background-position: right top;
+  height: 735px;
+  display: flex;
+}
+
+.title {
+  color: var(--color-secondary);
+  font-size: 114px;
+  font-weight: 700;
+  max-width: 740px;
+  margin-top: auto;
+  margin-bottom: 35px;
+}
